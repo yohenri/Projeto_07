@@ -1,0 +1,53 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html, body {
+width:100%;
+height: auto;
+overflow: hidden;
+
+}
+.lore {
+    background-image: linear-gradient(green, white);
+    width: 50%;
+    display: inline-block;
+    box-shadow: -2px 2px 20px black
+
+
+    
+}
+
+.lore2 {
+      background-image: linear-gradient(green, black);
+      width: 50%;
+      display: inline-block;
+      float: right;
+      box-shadow: -2px 2px 20px black
+      
+
+
+     
+    
+}
+
+
+@media screen and (max-width: 724px) {
+.lore {
+        background-color: blueviolet;
+        width: 100%;
+        
+ }
+    
+.lore2 {
+          background-color: aqua;
+          width: 100%;
+          
+        
+}
+
+    
+}
+    
